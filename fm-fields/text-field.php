@@ -11,7 +11,7 @@ class WC_Mke_Fields_2014 {
 	// This function tells the class what to fire
 	function __construct() {
 
-		add_action( 'init', array( $this, 'simple_text_field' ), 95 );
+		add_action( 'init', array( $this, 'simple_text_field' ), 15 );
 
 	}
 

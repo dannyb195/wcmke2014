@@ -10,7 +10,7 @@ class WC_Mke_Group_Fields_2014 {
 
 	function __construct() {
 
-		add_action( 'init', array( $this, 'grouped_meta' ), 95 );
+		add_action( 'init', array( $this, 'grouped_meta' ), 15 );
 
 	}
 

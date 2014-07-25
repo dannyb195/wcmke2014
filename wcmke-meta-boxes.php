@@ -74,8 +74,6 @@ function long_meta_box( $post ) {
 
 	$text = isset( $values['twitter_text_box'] ) ? esc_attr( $values['twitter_text_box'][0] ) : '';
 
-	// $positiontext = get_post_meta( get_the_ID(),'twitter_text_box', true );
-
 	?>
 
 	<p>

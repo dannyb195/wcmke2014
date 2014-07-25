@@ -19,6 +19,7 @@ class WC_Mke_Group_Fields_2014 {
 		$months = array( 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' );
 
 		$fm = new Fieldmanager_Group( array(
+
 			'name'     => 'meta_fields',
 
 			'limit'          => 0,
@@ -36,7 +37,7 @@ class WC_Mke_Group_Fields_2014 {
 				'checkbox'     => new Fieldmanager_Checkbox( 'Checkbox' ),
 				'radios'       => new Fieldmanager_Radios( 'Radio Buttons', array( 'options' => array( 'One', 'Two', 'Three' ) ) ),
 				'select'       => new Fieldmanager_Select( 'Select Dropdown', array( 'options' => array( 'One', 'Two', 'Three' ) ) ),
-				'richtextarea' => new Fieldmanager_RichTextArea( 'Rich Text Area' ),
+				'long_employee_description' => new Fieldmanager_RichTextArea( 'Rich Text Area' ),
 			)
 		) );
 

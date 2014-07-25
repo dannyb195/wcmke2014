@@ -11,11 +11,11 @@ class WC_Mke_Fields_2014 {
 	// This function tells the class what to fire
 	function __construct() {
 
-		add_action( 'init', array( $this, 'simple_text_field' ), 15 );
+		add_action( 'init', array( $this, 'add_text_field' ), 15 );
 
 	}
 
-	public function simple_text_field() {
+	public function add_text_field() {
 
 		$fm = new Fieldmanager_Textfield( array(
 			'name'           => 'repeating_text_field',
